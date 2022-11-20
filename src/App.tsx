@@ -1,10 +1,18 @@
 import { useState } from 'react'
+import { Container } from 'react-bootstrap'
+import { Routes, Route } from 'react-router-dom'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-  <div>intro </div>
+  <Container>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/store" element={<Store />} />
+      <Route path="/about" element={<About />} />
+    </Routes>
+  </Container>
   )
 }
 
