@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Cat Imposter",
+    "price":1000,
+    "imgUrl": "https://images.unsplash.com/photo-1605101479435-005f9c563944?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Grumpy the Cat",
+    "price":1500,
+    "imgUrl": "https://images.unsplash.com/photo-1614613658619-08b43611450a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1752&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Better than Grumpy the Cat the Dog",
+    "price":1900,
+    "imgUrl": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Wolf Imposter",
+    "price":1200,
+    "imgUrl": "https://images.unsplash.com/photo-1533973437338-97c56526f17c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1688&q=80"
+  }
+]
