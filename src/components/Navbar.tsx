@@ -19,9 +19,10 @@ export function Navbar() {
       <Button style={{
         width: "3rem",
         height: "3rem",
-        background:"transparent",
-        position: "relative"}}>
-        🛒
+        position: "relative"}}
+        variant="outline-primary"
+        >
+        <span style={{fontSize: "1.5rem"}}>🛒</span>
         <div className="rounded-circle bg-danger d-flex justify-content-center aligh-itmes-center"
         style={{ color:"white", width:"1.5rem", height:"1.5rem", position:"absolute", bottom:"-8px", right:"-8px"}}>
           3
