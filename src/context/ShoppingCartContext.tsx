@@ -4,7 +4,7 @@ type ShoppingCartProviderProps = {
   children: ReactNode
 }
 
-type ShoppingCartContext ={
+type ShoppingCartContext = {
   getItemQuantity: (id: number) => number
   increaseCartQuantity: (id: number) => void
   decreaseCartQuantity: (id: number) => void
@@ -26,13 +26,13 @@ export function ShoppingCartProvider({children}:ShoppingCartProviderProps) {
   const [cartItems, setCartItems] = useState<CartItems[]>([])
 
   function getItemQuantity(id:number) {
-    cartItems.find(i => i.id === id)?.quantity || 0
+    return cartItems.find(i => i.id === id)?.quantity || 0
   }
 
   function increaseCartQuantity(id:number) {
     setCartItems(selectedItems => {
       if (selectedItems.find(theItem => theItem.id === id) == null) {
-        [...selectedItems, {id, quantity: 1}]
+        return [...selectedItems, {id, quantity: 1}]
       } else {
         return selectedItems.map(theItem => {
           if (theItem.id === id) {
